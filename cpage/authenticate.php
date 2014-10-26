@@ -1,7 +1,7 @@
 <?php
   session_start();
  //to connect to the database.
-$resource = mysql_connect("jiaruicake.c05oeszhyenp.us-west-2.rds.amazonaws.com", "jiaruihu", "liukaixi59153270") or die("Unable to connect" . mysql_error());
+$resource = mysql_connect("jiaruicake.c05oeszhyenp.us-west-2.rds.amazonaws.com", "jiarui", "liukaixi59153270") or die("Unable to connect" . mysql_error());
 
 mysql_select_db("Bakeshop", $resource) or die("Unable to connect to patient database");
 
